@@ -13,9 +13,9 @@ NOTE: This ONLY works in Cocos Creator games, i have not tested this in any othe
 
 To use this tool, you need 2 things only: the main URL of the CC game (https://example.com/folder1/) and the Bundle configuration file.
 
-To get a bundle config file is very simple, on the game URL, type `view-source:` *before* the HTTP indentier, this will open the page's source code.
+To get a bundle config file is very simple, on the game URL, type `view-source:` *before* the HTTP indentifier, this will open the page's source code.
 
-Scroll down a little bit until you find somenthing like this:
+Scroll down a little bit until you find something like this:
 
 `<script src="src/settings.RANDOMHASH.js" charset="utf-8"></script>`
 
