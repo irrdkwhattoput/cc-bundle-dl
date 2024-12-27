@@ -1,4 +1,4 @@
-# cc-bundle-dl
+# CBD
 Cocos Creator Bundle Downloader (HMTL5!!11!!11 game archiver)
 
 Automatically download assets from a **Cocos Creator** game, so you don't have to waste 1/2 of your life playing the entire game.
