@@ -23,7 +23,7 @@ If your browser is not dumbed down, you will see an hyperlink between the `src=`
 
 ![image](https://github.com/user-attachments/assets/d99e719d-7120-459f-91fb-d37c35d230ef)
 
-See the `bundleVars` key? well that's what we are searching for, copy the name of the bundle and the hash of the bundle you want to archive and put these in this link:
+See the `bundleVers` key? well that's what we are searching for, copy the name of the bundle and the hash of the bundle you want to archive and put these in this link:
 
 `{gamelinkhere}/assets/BUNDLENAMEHERE/config.BUNDLEHASHHERE.json`
 
