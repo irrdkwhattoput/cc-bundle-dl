@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module",
+  "name": "cocos-bundle-downloader",
+  "version": "1.0.0",
+  "main": "CBD.js",
+  "bin": "CBD.js"
+}
