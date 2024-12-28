@@ -1,17 +1,35 @@
-# CBD
-Cocos Creator Bundle Downloader (HMTL5!!11!!11 game archiver)
+<div align="center">
 
-Automatically download assets from a **Cocos Creator** game, so you don't have to waste 1/2 of your life playing the entire game.
+# Cocos Creator Bundle Downloader
+
+![GitHub Repo stars](https://img.shields.io/github/stars/irrdkwhattoput/cc-bundle-dl)  ![GitHub forks](https://img.shields.io/github/forks/irrdkwhattoput/cc-bundle-dl)  ![GitHub License](https://img.shields.io/github/license/irrdkwhattoput/cc-bundle-dl)  
+
+![splash 85cfd](https://github.com/user-attachments/assets/82b61a07-898a-4cce-aed9-5780efd832ce)
+
+*boom baby*
+
+</div>
+
+----
+
+Automatically downloads asset bundles from a **Cocos Creator** game, so you don't have to waste 1/2 of your life playing the entire game.
+
+> [!WARNING]  
+> This tool has only been tested on Cocos Creator version 2.4.X and debug builds, please don't scream at me if it doesn't work in your game, assets management could change at any time!
+
+Please go to the ["How to use"](https://github.com/irrdkwhattoput/cc-bundle-dl/main/README.md#how-to-use) section before touching anything, im horrible at explaining things so im sorry if you can't understand some stuff.
 
 ***I was going to make this tool gatekept for myself, since this is the first and probably last automatic HTML5 game archiver in the history of humanity, however my good soul decided to make this world a little fairer to you, so i decided to release it, the tool was originally made to help PvZ miniprograms archival easier to us scrappers.***
 
-Please go to the "How to use?" section before using the tool, im horrible at explaining things so sorry if you can't understand nothing.
+## Requirements:
 
-NOTE: This ONLY works in Cocos Creator games, i have not tested this in any other Cocos games... except Chinese miniprograms.
+- node-fetch
+- jszip
 
 ## How to use?
 
-To use this tool, you need 2 things only: the main URL of the CC game (https://example.com/folder1/) and the Bundle configuration file.
+> [!NOTE]  
+> To use this tool, you need 2 things only: the main URL with the folder were the main game's `index.html` is located (eg: https://example.com/gamefolder/) and the Bundle configuration file.
 
 To get a bundle config file is very simple, on the game URL, type `view-source:` *before* the HTTP indentifier, this will open the page's source code.
 
@@ -34,11 +52,6 @@ Now you are ready to scrape those bundles! To initiate the tool, open a Terminal
 `node CBD.js https://example.com/folder1/ config.e511f.json`
 
 The tool will launch and will start scrapping the files, when it ends, you should see an little zip archive in the directory of the tool with the game assets!
-
-## Requirements:
-
-- node-fetch
-- jszip
 
 ## How it works?
 
